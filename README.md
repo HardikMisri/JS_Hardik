@@ -1,2 +1,3 @@
 # JS-
-JavaScript Code Repo For Study 
+Code Repo for java Script code 
+
