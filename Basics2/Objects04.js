@@ -64,6 +64,49 @@ users[1].email
 console.log(tinderUser)
 
 console.log(Object.keys(tinderUser)); //Return array of keys
+/ console.log(Object.keys(tinderUser)); //Return array of keys
+
+// console.log(Object.values(tinderUser));
+
+// console.log(Object.entries(tinderUser));
+
+// console.log(tinderUser.hasOwnProperty('isLogged')) // return true or false
+
+
+//-------------------------------------------------
+
+const course = {
+    coursename: "js in hindi",
+    price : 999,
+    courseInstructor :"hitesh"
+}
+
+//Destructreing  og objects
+const {courseInstructor : teacher } = course
+// console.log(teacher);
+// console.log(amount)
+
+
+//JSON________________JSON______________JSON____________
+
+// {   //this is json as well as objecy
+
+//    " name ": "Hardik",
+//   "  coursename ":"js in hindi",
+//     "price" : "free"
+
+
+// }
+
+
+// _________________________________________________
+// 
+
+[
+    {},
+    {},
+    {}
+]
 
 console.log(Object.values(tinderUser));
 
